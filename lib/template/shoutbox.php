@@ -43,6 +43,8 @@
 					
 					
 					</select>
+					
+					<input type="button" id="sendButton" value="→" style="font-size: 1.2em; padding: 5px 10px; cursor: pointer;" onclick="ajaxChat.sendMessage();" title="Send message"/>
 		
 	</div>
 		<script type="text/javascript">
